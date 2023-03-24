@@ -4,15 +4,11 @@
 
 Ce projet a pour but de permettre au Fatrin de trouver rapidement les cafés et restaurants ouverts près de chez eux.
 
-Ce site web est un projet communautaire et collaborative.
+Ce site web est un projet communautaire et collaboratif.
 
 ## Contributeurs Principaux
 
 - [@boubakerjouini](https://www.github.com/boubakerjouini)
-
-## Demo
-
-Insert gif or link to demo
 
 ## License
 
