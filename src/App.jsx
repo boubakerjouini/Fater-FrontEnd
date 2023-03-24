@@ -1,7 +1,11 @@
 import React from 'react'
-
+import Header from './Header'
 export function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>
+  return (
+    <main>
+      <Header />
+    </main>
+  )
 }
 
 export default App
