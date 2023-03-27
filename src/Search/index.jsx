@@ -3,11 +3,14 @@ import { MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 
 const Search = () => {
   const [searchFocus, setSearchFocus] = React.useState(false)
+
   return (
     <section className="search flex flex-col w-full md:h-[70vh] h-[30vh] items-center justify-center align-middle gap-16 ">
       <div className="flex flex-col items-center justify-center align-middle gap-2">
-        <h1 className="text-4xl font-bold font-main">Trouvez un café proche de chez toi !</h1>
-        <p className="text-lg font-main">Trouvez les cafés et restaurants ouvert prés de chez vous </p>
+        <h1 className=" max-md:mt-52 max-sm:text-2xl text-4xl font-bold font-main">
+          Trouvez un café proche de chez vous !
+        </h1>
+        <p className="max-sm:invisible text-lg font-main">Trouvez les cafés et restaurants ouvert prés de chez vous </p>
       </div>
       <div className="absolute top[10vh] left-60 blur-xl bg-emerald-50 w-[400px] h-96 rounded-full -z-30 opacity-60"></div>
 
