@@ -1,11 +1,12 @@
 import React from 'react'
 import { MagnifyingGlassIcon } from '@heroicons/react/20/solid'
+import { useSearch } from '../../Hooks/Search'
 
-const Search = () => {
+const Search = ({ setSearch, search }) => {
   const [searchFocus, setSearchFocus] = React.useState(false)
 
   return (
-    <section className="search flex flex-col w-full md:h-[70vh] h-[30vh] items-center justify-center align-middle gap-16 ">
+    <section className="search flex flex-col w-full md:h-[70vh] mb-12 items-center justify-center align-middle gap-16 ">
       <div className="flex flex-col items-center justify-center align-middle gap-2">
         <h1 className=" max-md:mt-52 max-sm:text-2xl text-4xl font-bold font-main">
           Trouvez un café proche de chez vous !
@@ -28,6 +29,7 @@ const Search = () => {
             placeholder="Tunis, Sousse, Monastir..."
             onFocus={() => setSearchFocus(true)}
             onBlur={() => setSearchFocus(false)}
+            onChange={e => setSearch(e.target.value)}
           />
         </div>
       </div>
