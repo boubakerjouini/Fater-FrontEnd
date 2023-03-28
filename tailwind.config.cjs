@@ -13,7 +13,10 @@ module.exports = {
         },
       },
       animation: {
-        'fade-in': 'fade-in 5s ease-in-out',
+        'fade-in': 'fade-in 0.5s ease-in-out',
+      },
+      screens: {
+        lg: '1164px',
       },
     },
   },
